@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+   }
+body{
+    
+  
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+ 
+  background-size: cover;
+
+
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    border-radius: 5%;
+   
+    /* height: 100%;
+    width: 100%;
+*/}
+nav ul {
+    height: 15vh;
+    width: 100%;
+    margin: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: first baseline;
+    cursor: pointer;
+    
+
+ 
+}
+nav ul li{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 25px;
+    cursor: pointer;
+
+}
+
+nav ul button{
+   padding: 15px 25px;
+   font-size: 15px;
+   background-color: blueviolet;
+   color: aliceblue;
+   border-radius: 10px;
+   position:fixed ;
+    right: 80px;
+    top: 46px;
+    cursor: pointer;
+}
+
+nav{
+    background-color: black;
+    
+}
+
+main div{
+    width: auto; 
+    margin: auto; 
+    margin-top: 50px;
+    text-align: center;
+    
+    /* width: 100%;
+    margin-left: 23%;
+    margin-top: 15%; */
+    /* display: list-item; */
+    /* align-items: center;
+    justify-content: center; */
+}
+
+main div h1{
+    
+    color: aliceblue;
+    font-size: 60px;
+    font-weight: 900;
+
+}
+
+main div p{
+    
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+main div button{
+    padding: 25px 35px;
+   font-size: 18px;
+   font-weight: 600;
+   background-color: blueviolet;
+   color: aliceblue;
+   border-radius: 10px;
+   margin: 40px ;
+   text-align: center;
+   
+    cursor: pointer;
+}
+
